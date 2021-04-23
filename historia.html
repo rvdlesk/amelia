@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/historia.css">
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -17,23 +18,22 @@
 
 <body>
 
-     <!-- Inicio header -->
+<!-- Inicio header -->
    <header>
 
-    <div id="nav-negra">
-
-        <div class="container">
-            <a id="logo" class="fl" href="index.html"><span class="iconify" data-icon="mdi:music-clef-treble" data-inline="false"></span></a>
-            <nav> 
-                <ul class="container">
-                    <li><a href="contactos.html">CONTACTOS</a></li>
-                    <li><a href="partes.html">PARTES</a></li>
-                    <li><a href="tipos.html">TIPOS</a></li>
-                    <li><a href="historia.html">HISTORIA</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
+   
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <!-- Navbar content -->
+        <a id="logo" class="fl" href="index.html"><span class="iconify" data-icon="mdi:music-clef-treble" data-inline="false"></span></a>
+        <ul class="unstyled-list">
+            <li><a href="contactos.html">CONTACTOS</a></li>
+            <li><a href="partes.html">PARTES</a></li>
+            <li><a href="tipos.html">TIPOS</a></li>
+            <li><a href="historia.html">HISTORIA</a></li>
+        </ul>
+      </nav>
+   
+    <div class="container">
 
 </header>
 <!-- Fin header -->
@@ -42,7 +42,7 @@
 
 <section id="historia-wrapper">
 
-    <h2>Historia.</h2>
+    <h2 class="h2">Historia.</h2>
     <hr>
     <p>El nombre del piano proviene de la palabra <i>pianoforte</i>, un término italiano que indica la posibilidad que tiene el instrumento de sonar mucho poco, dependiendo del  <b>vigor</b> con que se teclee.</p>
     <img src="/images/historia-1.jpeg" alt="Bartolomeo Cristofori">
@@ -69,7 +69,7 @@
  
  <!-- Inicio footer -->
 
- <footer class="footer-wrapper">
+ <footer class="footer-wrapper bg-dark">
 
     <div id="frase-cierre">
         <p><i>“Sin música, la vida sería un error.”</i></p>

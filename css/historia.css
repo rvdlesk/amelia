@@ -2,6 +2,8 @@ body {
     font-family: lato, sans-serif;
     color: #272727;
     font-weight: 300;
+    font-size: 16px !important;
+    font-family: lato !important;
 }
 
 .fl {
@@ -13,8 +15,8 @@ body {
 }
 
 .iconify { 
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
 }
 
 .container {
@@ -25,27 +27,31 @@ body {
 /*Barra de navegación*/
 
 #logo {
-    padding-top: 15px;
     color: white;
+    padding-top: 0px;
+    padding-left: 120px;
+    /* border: 1px solid red; */
 }
 
 #nav-negra {
     background: #272727;
-    height: 86px;
+    height: 90px !important;
     position: fixed;
     width: 100%;
 }
 
-header nav ul {
+.navbar ul {
     /* border: 1px solid red; */
     text-align: center;
-    padding-top: 35px;
+    padding-top: 20px;
+    padding-right: 80px !important;
     list-style-type: none;
 }
 
 header nav ul li { 
     float: right;
-    margin: 0 20px;
+    margin: 0 10px !important;
+    /* border: 1px solid red; */
 }
 
 header nav ul li a {
@@ -58,6 +64,26 @@ header nav ul li a {
     font-weight: 400;
     text-decoration: none;
     display: inline;
+}
+
+.navbar ul li {
+    display: inline;
+    font-family: lato !important;
+    letter-spacing: 3px;
+     /* border: 1px solid red; */
+}
+
+.navbar ul li a {
+    float: right!important;
+    margin: 0 20px!important;
+    list-style: none !important;
+    text-decoration: none !important;
+    padding-right: 30px;
+    /* border: 1px solid red; */
+}
+
+.navbar ul li a:hover {
+    color:#d85353;
 }
 
 #nav-negra nav ul li a:hover {
@@ -79,6 +105,7 @@ header nav ul li a {
     font-size: 90px;
     font-weight: 600;
     margin-top: 150px;
+    width: 100%;
     /* border: 1px solid red; */
 }
 
@@ -91,7 +118,7 @@ header nav ul li a {
 }
 
 #historia-wrapper img {
-    width: 600px;
+    width: 100%;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -113,19 +140,20 @@ header nav ul li a {
  }
  
  #frase-cierre {
-     color: white;
-     text-align: center;
-     line-height: 5px;
-     padding-top: 60px;
-     font-weight: 600;
-     letter-spacing: 1px;
-     /* border: 1px solid red; */
- }
- 
- #frase-cierre span {
-     font-weight: 300;
-     /* border: 1px solid red; */
- }
+    color: white;
+    text-align: center;
+    line-height: 5px;
+    font-family: lato;
+    padding-top: 60px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    /* border: 1px solid red; */
+}
+
+#frase-cierre span {
+    font-weight: 300;
+    /* border: 1px solid red; */
+}
 
  footer {
      margin-top: 100px;
@@ -137,6 +165,10 @@ header nav ul li a {
      list-style: none;
      text-decoration: none;
  }
+
+ footer a:hover {
+    color: #d85353;
+}
  
  .footer-nav {
  

@@ -2,6 +2,7 @@ body {
     font-family: lato, sans-serif;
     color: #272727;
     font-weight: 300;
+    font-family: lato !important;
 }
 
 .fl {
@@ -13,8 +14,8 @@ body {
 }
 
 .iconify { 
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
 }
 
 .container {
@@ -25,27 +26,31 @@ body {
 /*Barra de navegación*/
 
 #logo {
-    padding-top: 15px;
     color: white;
+    padding-top: 0px;
+    padding-left: 120px;
+    /* border: 1px solid red; */
 }
 
 #nav-negra {
     background: #272727;
-    height: 86px;
+    height: 90px !important;
     position: fixed;
     width: 100%;
 }
 
-header nav ul {
+.navbar ul {
     /* border: 1px solid red; */
     text-align: center;
-    padding-top: 35px;
+    padding-top: 20px;
+    padding-right: 80px !important;
     list-style-type: none;
 }
 
 header nav ul li { 
     float: right;
-    margin: 0 20px;
+    margin: 0 10px !important;
+    /* border: 1px solid red; */
 }
 
 header nav ul li a {
@@ -60,9 +65,30 @@ header nav ul li a {
     display: inline;
 }
 
+.navbar ul li {
+    display: inline;
+    font-family: lato !important;
+    letter-spacing: 3px;
+     /* border: 1px solid red; */
+}
+
+.navbar ul li a {
+    float: right!important;
+    margin: 0 20px!important;
+    list-style: none !important;
+    text-decoration: none !important;
+    padding-right: 30px;
+    /* border: 1px solid red; */
+}
+
+.navbar ul li a:hover {
+    color:#d85353;
+}
+
 #nav-negra nav ul li a:hover {
     color: #d85353;
 }
+
 
 /* Inicio Historia del piano */
 
@@ -77,6 +103,7 @@ header nav ul li a {
 
 #partes-wrapper img {
     margin-bottom: 0px;
+    width: 100%;
     /* border: 1px solid red; */
 
 }
@@ -85,6 +112,7 @@ header nav ul li a {
     font-size: 90px;
     font-weight: 600;
     margin-top: 150px;
+    width: 100%;
     /* border: 1px solid red; */
 }
 
@@ -102,14 +130,23 @@ header nav ul li a {
      
 }
 
+#partes-intro {
+    background-color:transparent !important;
+}
+
 #partes-wrapper  p {
     font-weight: 400;
-    font-size: 20px;
-    margin-top: 70px;
-    margin: auto;
-    text-align: justify;
-    display: block;
-    padding-top: 50px;
+    width: 100%;
+    text-align:justify;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 80px;
+    color: #272727;
+    background-color: #ffe4e4;
+    line-height: normal;
+    padding: 20px;
+    justify-content: center;
+    /* border: 1px solid red; */
    
 }
 
@@ -157,18 +194,18 @@ header nav ul li a {
 }
 
 #partes-wrapper .partes-container .partes-cards .unstyled-list .partes-container2 #partes-texto {
-    font-weight: 300;
-    width: 600px;
-    text-align: center;
+    font-weight: 400;
+    width: 100%;
+    text-align:justify;
     font-size: 18px;
     margin-top: 25px;
     margin-bottom: 80px;
-    color: white;
+    color: #272727;
+    background-color: #ffe4e4;
     line-height: normal;
-    padding: 31px;
-    background-color: #272727;
+    padding: 20px;
     justify-content: center;
-   
+    /* border: 1px solid red; */
 }
 
 /* footer */
@@ -176,6 +213,7 @@ header nav ul li a {
 .footer-wrapper {
     background: #272727;
     height: 400px;
+    margin-top: 100px;
     /* border: 1px solid red; */
  }
  
@@ -183,6 +221,7 @@ header nav ul li a {
      color: white;
      text-align: center;
      line-height: 5px;
+     font-family: lato;
      padding-top: 60px;
      font-weight: 600;
      letter-spacing: 1px;
@@ -193,23 +232,24 @@ header nav ul li a {
      font-weight: 300;
      /* border: 1px solid red; */
  }
-
- footer {
-     margin-top: 100px;
- }
  
  footer a {
      color: white;
      text-align: center;
-     list-style: none;
      text-decoration: none;
  }
+
+ footer a:hover {
+    color: #d85353;
+}
  
  .footer-nav {
  
      text-align: center;
-     margin-top: 60px;
      list-style: none;
+     text-decoration: none;
+     margin-top: 60px;
+     
      /* border: 1px solid red; */
  }
  
@@ -217,6 +257,7 @@ header nav ul li a {
      text-transform: uppercase;
      font-size: 12px;
      letter-spacing: 3px;
+     list-style: none;
      font-weight: 400;
      text-decoration: none;
      padding: 12px;
@@ -224,9 +265,13 @@ header nav ul li a {
  
  #redes {
      text-align: center;
-     font-size: 20px;
      padding-top: 30px;
+     padding-left: 5px;
      letter-spacing: 8px;
+     margin: auto;
      position: relative;
+     text-decoration: none !important;
+     width: 100px;
+     list-style: none;
      /* border: 1px solid red; */
  }

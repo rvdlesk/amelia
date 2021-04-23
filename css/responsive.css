@@ -1,13 +1,26 @@
 /* ----------- iPhone 4 and 4S ----------- */
 
 /* Portrait and Landscape */
+
+
+/* Portrait */
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    /* Inicio */
+    #titulo #el-piano{
+      font-size: 2.87em;
+    }
+    /* header{
+      width:300px !important;
+    } */
+
+    /* historia */
     #historia-wrapper { 
       width: 100%;
-      padding: 10px 10px;
+      padding: 10px 0;
     }
 
     #historia-wrapper h2 {
@@ -24,51 +37,78 @@
       width: 100%;
     }
 
+    #contactos-wrapper {
+      width: 100%;
+      padding: 10px 0;
+    }
+
+    .form {
+      width: 50px;
+    }
+
+    #contactos-wrapper hr {
+      box-sizing: content-box;
+      height: 0;
+      overflow: visible;
+      
+    }
+
+    #contactos-wrapper h2 {
+      font-size: 50px;
+    }
+
+    #tipos-wrapper h2 {
+      font-size: 50px;
+     font-weight: 600;
 }
 
-/* Portrait */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
+#tipos-wrapper {
+    width: 50%;
+    padding: 81px 0 0;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
 }
 
-/* Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
+#tipos-wrapper p {
+  font-weight: 400;
+  font-size: 20px !important;
+  margin-top: 70px;
+  text-align: justify;
+}
+
+#tipos-wrapper img {
+  width: 200px;
+  display: block;
+  justify-content: center;
+}
+
+#tipos-wrapper2 img {
+  width: 200px;
+  display: block;
+  justify-content: center;
+}
+
+#tipos-wrapper3 img {
+  width: 200px;
+  display: block;
+  justify-content: center;
+}
+
+#partes-wrapper h2 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+#partes-wrapper img {
+  width: 228px;
+}
+
+#partes-texto {
+  width: 228px;
 
 }
 
-/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-
-}
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 
@@ -273,5 +313,5 @@
   and (max-device-width: 1366px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
+  }
 
-}

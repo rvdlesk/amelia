@@ -1,11 +1,13 @@
 body {
-    font-family: lato, sans-serif;
+    font-family: lato, sans-serif !important;
     color: #272727;
     font-weight: 300;
+    font-size: 16px !important;
 }
 
 h3 {
     font-size: 25px;
+    font-weight: bold;
 }
 
 .fl {
@@ -17,8 +19,8 @@ h3 {
 }
 
 .iconify { 
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
 }
 
 .container {
@@ -29,27 +31,31 @@ h3 {
 /*Barra de navegación*/
 
 #logo {
-    padding-top: 15px;
     color: white;
+    padding-top: 0px;
+    padding-left: 120px;
+    /* border: 1px solid red; */
 }
 
 #nav-negra {
     background: #272727;
-    height: 86px;
+    height: 90px !important;
     position: fixed;
     width: 100%;
 }
 
-header nav ul {
+.navbar ul {
     /* border: 1px solid red; */
     text-align: center;
-    padding-top: 35px;
+    padding-top: 20px;
+    padding-right: 80px !important;
     list-style-type: none;
 }
 
 header nav ul li { 
     float: right;
-    margin: 0 20px;
+    margin: 0 10px !important;
+    /* border: 1px solid red; */
 }
 
 header nav ul li a {
@@ -64,9 +70,30 @@ header nav ul li a {
     display: inline;
 }
 
+.navbar ul li {
+    display: inline;
+    font-family: lato !important;
+    letter-spacing: 3px;
+     /* border: 1px solid red; */
+}
+
+.navbar ul li a {
+    float: right!important;
+    margin: 0 20px!important;
+    list-style: none !important;
+    text-decoration: none !important;
+    padding-right: 30px;
+    /* border: 1px solid red; */
+}
+
+.navbar ul li a:hover {
+    color:#d85353;
+}
+
 #nav-negra nav ul li a:hover {
     color: #d85353;
 }
+
 
 /* Inicio Historia del piano */
 
@@ -90,6 +117,7 @@ header nav ul li a {
     font-size: 90px;
     font-weight: 600;
     margin-top: 150px;
+    width: 100%;
     /* border: 1px solid red; */
 }
 
@@ -104,9 +132,10 @@ header nav ul li a {
 }
 
 #tipos-wrapper img {
-    width: 600px;
+    width: 100%;
     margin-top: 30px;
     margin-bottom: 30px;
+    /* border: 1px solid red; */
 }
 
 #tipos-wrapper hr {
@@ -118,9 +147,9 @@ header nav ul li a {
 }
 
 #tipos-wrapper2 {
-    height: 1000px;
+    height: 1120px;
     background-color: #272727;
-     /* border: 1px solid red; */
+    /* border: 1px solid red; */
 }
 
 #tipos-wrapper2 h3 {
@@ -133,11 +162,18 @@ header nav ul li a {
 #tipos-wrapper2 p {
     color: white;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 00;
     margin: auto;
     margin-top: 30px;
+    margin-bottom: 0px !important;
     width: 50%;
     text-align: justify;
+    /* border: 1px solid red; */
+}
+
+#tipos-wrapper2 img {
+    width: 100%;
+     /* border: 1px solid red; */
 }
 
 #tipos-wrapper2 ul {
@@ -179,7 +215,8 @@ header nav ul li a {
 }
 
 #tipos-wrapper3 img {
-    width: 600px;
+    width: 100%;
+    /* border: 1px solid red; */
 }
 
 #tipos-wrapper3 p {
@@ -221,6 +258,10 @@ header nav ul li a {
      list-style: none;
      text-decoration: none;
  }
+
+ footer a:hover {
+    color: #d85353;
+}
  
  .footer-nav {
  
