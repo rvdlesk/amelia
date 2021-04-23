@@ -142,9 +142,10 @@ header nav ul li a {
     margin-top: 25px;
     margin-bottom: 80px;
     color: #272727;
-    background-color: #ffe4e4;
+    background-color: #f1f1f1;
     line-height: normal;
     padding: 20px;
+    padding-top: 60px;
     justify-content: center;
     /* border: 1px solid red; */
    
@@ -201,7 +202,7 @@ header nav ul li a {
     margin-top: 25px;
     margin-bottom: 80px;
     color: #272727;
-    background-color: #ffe4e4;
+    background-color: #f1f1f1;
     line-height: normal;
     padding: 20px;
     justify-content: center;
