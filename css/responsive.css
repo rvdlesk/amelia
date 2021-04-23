@@ -5,6 +5,24 @@
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
+    #historia-wrapper { 
+      width: 100%;
+      padding: 10px 10px;
+    }
+
+    #historia-wrapper h2 {
+      font-size: 50px;
+    }
+
+    #historia-wrapper p {
+      font-size: 18px;
+      padding: 10px 10px;
+    }
+
+    #historia-wrapper img {
+      height: 250px;
+      width: 100%;
+    }
 
 }
 
