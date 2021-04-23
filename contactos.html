@@ -47,59 +47,50 @@
 
 <section>
 
-    <form id="form" class="bg-dark" action="enviar">
-
-        <div class="campos">
-            <label for="fname">Nombres:</label><br><br>
-            <input type="text" id="input" class="bg-dark" name="nombres"><br><br>
-
-            <label for="lname">Apellidos:</label><br><br>
-            <input type="text" id="input" class="bg-dark" name="apellidos">
+    <form id="form" class="form-control bg-dark">
+        <div class="form-group">
+          <label for="nombre">Nombres y apellidos:</label>
+          <input type="nombre" class="form-control" id="nombre" placeholder="Nombre completo">
+        </div>
+        <div class="form-group">
+            <label for="nombre">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Email">
+            <small id="aviso" class="form-text text-muted">Tu email no será compartido</small>
+          </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Dirección:</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Calle/ Número/ Sector/ Ciudad">
         </div>
 
-        <div class="genero">
+        Género: <br>
 
-            <div>Género:</div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="Femenino" id="Femenino" value="option1">
+            <label class="form-check-label" for="fem">
+              Femenino
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="Masculino" id="Masculino" value="Masculino">
+            <label class="form-check-label" for="masc">
+              Masculino
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="Otro" id="Otro" value="Otro">
+            <label class="form-check-label" for="otros">
+              Otro
+            </label>
+          </div>
 
-            <div>
-                <input type="radio" id="femenino" name="gender" value="femenino">
-                <label for="femenino">Femenino</label><br>
-            </div>
-            <div>
-                <input type="radio" id="male" name="gender" value="male">
-                <label for="male">Masculino</label><br>
-            </div>
-            <div>
-                <input type="radio" id="otro" name="gender" value="otro">
-                <label for="otro">Otro</label><br>
-            </div>
-        </div>
-
-        <div class="campos-otros">
-            <label for="fname">Email:</label><br><br>
-            <input type="text" id="input" class="bg-dark" name="nombres"><br><br>
-
-            <label for="lname">Dirección:</label><br><br>
-            <input type="text" id="input" class="bg-dark" name="apellidos"><br><br>
-
-            <label for="motivacion">Mi motivación para aprender es:</label><br><br>
-            <input id="motivacion" class="bg-dark" name="motivacion"></input>
-
-            <!-- <div id="btn">
-                <a class= "btn" href="">ENVIAR</a>
-            </div> -->
-
-        </div>
-
-        <div id="btn">
-            <a class= "mybtn btn btn-outline-light btn-lg" href="">ENVIAR</a>
-        </div>
-    
-    </form>
-
-    <div id="disclaimer">
+          <hr>
+       
+        <button type="submit" class="mybtn btn btn-outline-light btn-lg">ENVIAR</button>
+        
+      </form>
+      <div id="disclaimer">
         <span>* Al enviar tu información, te pondremos en contacto con las mejores escuelas.</span>
-    </div>
+      </div>
     
 </section>
 

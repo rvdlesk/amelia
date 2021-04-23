@@ -117,16 +117,37 @@ header nav ul li a {
 
 #form {
     width: 550px;
-    height: 830px;
+    height: 600px;
     background-color: #272727;
     border-radius: 5px;
     margin: auto;
+    color: white;
     margin-top: 90px;
     /* border: 1px solid red; */
 }
 
-#form {
-    color: white;
+#form .form-group {
+    padding-bottom: 30px;
+}
+
+#form  .form-control {
+    margin-top: 10px;
+     /* border: 1px solid red; */
+}
+
+#form .form-check {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+small {
+    font-family: lato !important;
+    font-weight: 400;
+}
+
+#form .btn {
+    margin: auto;
+    display: block;
 }
 
 .campos {
@@ -199,6 +220,26 @@ input[type="radio"] {
 textarea {
     color: white;
     font-weight: 300;
+}
+
+#form .form-control .form-group{
+    border: 1px solid red !important;
+    justify-content: center;
+    width:max-content;
+    font-size: 18px;
+    width: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 20px;
+}
+
+#form {
+    font-family: lato !important;
+    padding: 40px !important;
+    font-weight: 300 !important;
 }
 
 #motivacion {
